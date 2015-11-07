@@ -1,0 +1,23 @@
+{
+  "name": "simple-markdown-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./exports.js",
+  "scripts": {
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.js --progress --colors"
+  },
+  "author": "Reslav Hollos",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "jsx-loader": "^0.13.2",
+    "simple-markdown": "0.0.4"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.1",
+    "react-dom": ">=0.14.1"
+  }
+}
